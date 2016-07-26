@@ -1,5 +1,5 @@
 FROM 1and1internet/ubuntu-16-nginx:latest
-MAINTAINER Brian Wojtczak <brian.wojtczak@fasthosts.com>
+MAINTAINER Brian Wojtczak <brian.wojtczak@1and1.co.uk>
 ARG DEBIAN_FRONTEND=noninteractive
 ENV \
     CELERY_BROKER_URL=amqp://guest:guest@rabbitmq:5672// \
